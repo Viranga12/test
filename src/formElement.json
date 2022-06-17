@@ -1,0 +1,49 @@
+[{
+    "formId":1,
+    "formName":"Sample Form",
+    "fieldDefinitions":[
+       {
+          "fieldName":"Country",
+          "fieldType":"LOV",
+          "dataType":"LIST",
+          "fieldLabel":"Country : ",
+          "jsonIdentifier":"country",
+          "isMandatory":true,
+          "fieldData":[
+             {
+                "countryName":"Sri Lanka",
+                "id":1
+             },
+             {
+                "countryName":"India",
+                "id":2
+             }
+          ]
+       },
+       {
+          "fieldName":"AGE",
+          "fieldType":"TEXT",
+          "dataType":"INTEGER",
+          "fieldLabel":"Age : ",
+          "jsonIdentifier":"age",
+          "minLengthAvailable":true,
+          "minLength":1,
+          "maxLengthAvailable":true,
+          "maxLength":2,
+          "fieldData":20
+       },
+       {
+          "fieldName":"NAME",
+          "fieldType":"TEXT",
+          "dataType":"STRING",
+          "fieldLabel":"Name : ",
+          "jsonIdentifier":"name",
+          "minLengthAvailable":true,
+          "minLength":3,
+          "maxLengthAvailable":true,
+          "maxLength":50,
+          "fieldData":""
+       }
+    ]
+ }
+]
